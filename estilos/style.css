@@ -1,0 +1,33 @@
+body {
+    /* background-color: pink; */
+    background-image: url("https://wallpapers.com/images/high/lilac-background-1p6witpr6hyjtdhe.webp");
+    font-family: Arial, Helvetica, sans-serif; /* alterar fonte */
+    background-repeat: no-repeat; 
+    background-size: 100vw 100vh;
+}
+
+.menu {
+    background: white;
+    
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:blueviolet;
+  font-size:larger;
+}
+
+a:hover {
+    text-decoration: overline;
+    color: gray;
+}
